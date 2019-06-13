@@ -50,3 +50,7 @@ yarn build
 * [Vuex](https://vuex.vuejs.org/) - Centralized State Management for Vue.js
 * [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) - Typescript decorators for Vue.js components
 * [vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators) - Typescript decorators for Vuex modules
+
+## Contributing
+
+Pull Requests for adding features ⇄ and ★ are welcome 😎
