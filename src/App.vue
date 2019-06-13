@@ -31,4 +31,16 @@ export default class App extends Vue { }
 html {
   font-family: 'Montserrat'
 }
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #ef5350 !important;
+    border-color: #ef5350 !important;
+}
+
+.btn-primary:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #ef5350 !important;
+}
 </style>
