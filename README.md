@@ -2,10 +2,6 @@
 
 > Pokèmon encyclopedia built using Vue.js
 
-<p align="center">
-<img style="width:50%" src="https://media.pokemoncentral.it/wiki/thumb/6/6e/Artwork494.png/900px-Artwork494.png">
-</p>
-
 ## Getting Started
 
 ### Prerequisites
