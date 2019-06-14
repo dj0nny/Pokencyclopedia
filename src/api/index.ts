@@ -3,7 +3,7 @@ import axios from 'axios';
 import { PkmnListResponse, PkmnResponse } from '../store/models'
 
 export const APIcall = axios.create({
-  baseURL: 'https://pokeapi.co/api/v2'
+  baseURL: 'https://pokeapi.co/api/v2/'
 })
 
 export async function getPokemon() {

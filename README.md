@@ -36,13 +36,13 @@ yarn serve
 ```
 for running the Vue.js development server. It will be up and running at this address: http://localhost:8080.
 
-## Deployment
+<!-- ## Deployment
 
 You can also create a build version of this repository running the command:
 ```bash
 npm run build
 # OR
-yarn build
+yarn build -->
 ```
 
 ## Built with ❤️ using:
