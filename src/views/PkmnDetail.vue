@@ -16,12 +16,12 @@
               </div>
               <div class="col-md-4">
                 <h6>Abilities:</h6>
-
+                  <Ability :abilities="pkmnDetail.abilities"></Ability>
               </div>
               <div class="col-md-4">
                 <h6>Types:</h6>
+                <Type :types="pkmnDetail.types"></Type>
               </div>
-
             </div>
           </div>
         </div>
@@ -65,7 +65,16 @@ import { PkmnResponse } from '@/store/models'
 
 import * as API from '@/api'
 
-@Component
+import Ability from '@/components/Ability.vue'
+import Type from '@/components/Type.vue'
+
+
+@Component({
+  components: {
+    Ability,
+    Type
+  }
+})
 export default class PkmnDetail extends Vue {
   pkmnDetail?: PkmnResponse[] = []
   spriteTypes: string[] = ["back default", "back female", "back shiny", "back shiny female", "front default", "front female", "front shiny", "front shiny female"]
@@ -104,6 +113,10 @@ export default class PkmnDetail extends Vue {
 
       h3 {
         margin-bottom: 20px;
+      }
+
+      h6 {
+        font-size: 18px;
       }
 
       table.table th {
