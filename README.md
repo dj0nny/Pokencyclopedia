@@ -42,8 +42,9 @@ You can also create a build version of this repository running the command:
 ```bash
 npm run build
 # OR
-yarn build -->
+yarn build 
 ```
+-->
 
 ## Built with ❤️ using:
 
