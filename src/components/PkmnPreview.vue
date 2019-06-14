@@ -3,7 +3,7 @@
      <div class="card">
       <div class="card-body">
         <h5 class="card-title">{{ pokemon.name }}</h5>
-        <a href="#" class="btn btn-primary">View Details</a>
+        <router-link :to="{ name: 'detail', params: { name: pokemon.name }}" class="btn btn-primary">View Details</router-link>
       </div>
     </div>
   </div>

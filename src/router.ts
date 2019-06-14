@@ -10,6 +10,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home,
+    },
+    {
+      path: '/pokemon/:name',
+      name: 'detail',
+      component: () => import('@/views/PkmnDetail.vue')
     }
   ],
 });
