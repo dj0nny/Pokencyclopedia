@@ -1,5 +1,7 @@
 # pokencyclopedia
 
+[![Build Status](https://travis-ci.org/dj0nny/pokencyclopedia.svg?branch=develop)](https://travis-ci.org/dj0nny/pokencyclopedia)
+
 > Pokèmon encyclopedia built using Vue.js
 
 ## Getting Started
