@@ -1,6 +1,10 @@
 # pokencyclopedia
 
 [![Build Status](https://travis-ci.org/dj0nny/pokencyclopedia.svg?branch=develop)](https://travis-ci.org/dj0nny/pokencyclopedia)
+[![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)
+[![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
+[![typescript](https://img.shields.io/badge/types-Typescript-blue.svg)](https://img.shields.io/badge/types-Typescript-blue.svg)
+
 
 > Pokèmon encyclopedia built using Vue.js
 
