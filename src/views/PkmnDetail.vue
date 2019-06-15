@@ -1,10 +1,7 @@
 <template>
   <div class="details">
     <div class="container">
-
       <h1 class="name">{{ pkmnDetail.name }}</h1>
-
-  
       <div class="row">
         <div class="col-md-12">
           <div class="general-details">
@@ -25,7 +22,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-12">
           <div class="sprites">
             <h3>Sprites</h3>
@@ -50,10 +46,13 @@
             </div>
           </div>
         </div>
-
       </div>
 
-      <h3 class="my-4">Related Projects</h3>
+      <div class="col-md-12">
+        <h3>Stats</h3>
+        <Stats :stats="pkmnDetail.stats"></Stats>
+      </div>
+
     </div>
   </div>  
 </template>
@@ -67,12 +66,14 @@ import * as API from '@/api'
 
 import Ability from '@/components/Ability.vue'
 import Type from '@/components/Type.vue'
+import Stats from '@/components/Stats.vue'
 
 
 @Component({
   components: {
     Ability,
-    Type
+    Type,
+    Stats
   }
 })
 export default class PkmnDetail extends Vue {
