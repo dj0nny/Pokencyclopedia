@@ -47,12 +47,14 @@
           </div>
         </div>
       </div>
-
-      <div class="col-md-12">
+      <div class="col-md-12 stats">
         <h3>Stats</h3>
         <Stats :stats="pkmnDetail.stats"></Stats>
       </div>
-
+      <div class="col-md-12 moves">
+        <h3>Moves</h3>
+        <MovesList :moves="pkmnDetail.moves"></MovesList>
+      </div>
     </div>
   </div>  
 </template>
@@ -67,13 +69,15 @@ import * as API from '@/api'
 import Ability from '@/components/Ability.vue'
 import Type from '@/components/Type.vue'
 import Stats from '@/components/Stats.vue'
+import MovesList from '@/components/MovesList.vue'
 
 
 @Component({
   components: {
     Ability,
     Type,
-    Stats
+    Stats,
+    MovesList
   }
 })
 export default class PkmnDetail extends Vue {
