@@ -18,7 +18,7 @@ For this project you need [__Node__](https://nodejs.org/en/) installed on your m
 
 You can clone this repository using __Git__:
 ```bash
-git clone https://github.com/dj0nny/vue-typescript-realworld-app.git
+git clone https://github.com/dj0nny/pokencyclopedia.git
 ```
 
 Or download the repository [here](https://github.com/dj0nny/pokencyclopedia/archive/develop.zip)
