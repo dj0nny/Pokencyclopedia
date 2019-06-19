@@ -1,17 +1,15 @@
-import axios from 'axios';
-
 import { PkmnListResponse, PkmnResponse } from '../store/models'
 
-export const APIcall = axios.create({
-  baseURL: 'https://pokeapi.co/api/v2/'
-})
+const Pokedex = require('pokedex-promise-v2');
+
+export const P = new Pokedex()
 
 export async function getPokemon() {
-  const res = await axios.get('/pokemon?limit=964')
-  return res.data as PkmnListResponse
+  const response = await P.resource(['/api/v2/pokemon?limit=964'])
+  return response[0] as PkmnListResponse
 }
 
 export async function getPokemonDetail(Pkmnname: string) {
-  const res = await axios.get(`/pokemon/${Pkmnname}`)
-  return res.data as PkmnResponse
+  const response = await P.getPokemonByName(`${Pkmnname}`)
+  return response as PkmnResponse
 }
