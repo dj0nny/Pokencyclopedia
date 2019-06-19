@@ -56,6 +56,7 @@ A deployed version in avaiable on [Netlify](https://netlify.com) at this URL: ht
 * [Vue.js](https://vuejs.org/) - A Javascript framework
 * [TypeScript](https://www.typescriptlang.org/) - Javascript based-type language
 * [Vuex](https://vuex.vuejs.org/) - Centralized State Management for Vue.js
+* [Pokedex-promise-v2 API](https://github.com/PokeAPI/pokedex-promise-v2) - An easy way to use [Pokeapi](https://pokeapi.co/) v2 with promises in Node.js
 * [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) - Typescript decorators for Vue.js components
 * [vuex-module-decorators](https://github.com/championswimmer/vuex-module-decorators) - Typescript decorators for Vuex modules
 
