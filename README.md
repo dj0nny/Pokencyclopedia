@@ -1,10 +1,11 @@
 # pokencyclopedia
 
 [![Build Status](https://travis-ci.org/dj0nny/pokencyclopedia.svg?branch=develop)](https://travis-ci.org/dj0nny/pokencyclopedia)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bc7e8f42-711b-47b7-9c4e-85a31cef15f0/deploy-status)](https://app.netlify.com/sites/determined-mahavira-ffd5b1/deploys)
 [![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)
 [![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
+[![vue](https://img.shields.io/badge/build%20with-vue-blue.svg)](https://img.shields.io/badge/build%20with-vue-blue.svg)
 [![typescript](https://img.shields.io/badge/types-Typescript-blue.svg)](https://img.shields.io/badge/types-Typescript-blue.svg)
-
 
 > Pokèmon encyclopedia built using Vue.js
 
@@ -40,7 +41,7 @@ yarn serve
 ```
 for running the Vue.js development server. It will be up and running at this address: http://localhost:8080.
 
-<!-- ## Deployment
+## Deployment
 
 You can also create a build version of this repository running the command:
 ```bash
@@ -48,7 +49,7 @@ npm run build
 # OR
 yarn build 
 ```
--->
+A deployed version in avaiable on [Netlify](https://netlify.com) at this URL: https://determined-mahavira-ffd5b1.netlify.com/#/
 
 ## Built with ❤️ using:
 
