@@ -7,8 +7,7 @@
           </div>
           <div class="col-md-8">
             <b-nav align="right">
-              <b-nav-item active>Active</b-nav-item>
-              <b-nav-item>Link</b-nav-item>
+              <b-nav-item v-for="(link, index) in links" :key="index" :to="link.href" >{{link.name}}</b-nav-item>
               <b-nav-item target="_blank"  href="https://github.com/dj0nny/pokencyclopedia" class="external">View repository</b-nav-item>
             </b-nav>
           </div>
@@ -21,7 +20,30 @@
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component
-export default class Header extends Vue { }
+export default class Header extends Vue { 
+  links: any = [
+    {
+      name: 'Pokèmon list',
+      href: '/'
+    },
+    {
+      name: 'moves',
+      href: '/moves'
+    },
+    {
+      name: 'items',
+      href: '/items'
+    },
+    {
+      name: 'abilities',
+      href: '/abilities'
+    },
+    {
+      name: 'encounters',
+      href: '/encounters'
+    },
+  ]
+}
 
 </script>
 
@@ -37,6 +59,7 @@ header {
 
       li a {
         color: #fff;
+        text-transform: capitalize;
 
         &:hover {
           text-decoration: underline;
