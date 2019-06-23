@@ -77,3 +77,49 @@ export interface TypesEntity {
   slot: number;
   type: AbilityOrFormsEntityOrVersionOrItemOrMoveLearnMethodOrVersionGroupOrMoveOrStatOrTypeOrSpecies;
 }
+
+export interface AbilitiesListResponse {
+  count: number;
+  next?: null;
+  previous?: null;
+  results?: (ResultsEntity)[] | null;
+}
+export interface ResultsEntity {
+  name: string;
+  url: string;
+}
+
+export interface AbilityDetailsResponse {
+  effect_changes?: (null)[] | null;
+  effect_entries?: (EffectEntriesEntity)[] | null;
+  flavor_text_entries?: (FlavorTextEntriesEntity)[] | null;
+  generation: LanguageOrVersionGroupOrPokemonOrGeneration;
+  id: number;
+  is_main_series: boolean;
+  name: string;
+  names?: (NamesEntity)[] | null;
+  pokemon?: (PokemonEntity)[] | null;
+}
+export interface EffectEntriesEntity {
+  effect: string;
+  language: LanguageOrVersionGroupOrPokemonOrGeneration;
+  short_effect: string;
+}
+export interface LanguageOrVersionGroupOrPokemonOrGeneration {
+  name: string;
+  url: string;
+}
+export interface FlavorTextEntriesEntity {
+  flavor_text: string;
+  language: LanguageOrVersionGroupOrPokemonOrGeneration;
+  version_group: LanguageOrVersionGroupOrPokemonOrGeneration;
+}
+export interface NamesEntity {
+  language: LanguageOrVersionGroupOrPokemonOrGeneration;
+  name: string;
+}
+export interface PokemonEntity {
+  is_hidden: boolean;
+  pokemon: LanguageOrVersionGroupOrPokemonOrGeneration;
+  slot: number;
+}

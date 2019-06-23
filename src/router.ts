@@ -32,6 +32,11 @@ export default new Router({
       component: () => import('@/views/Abilities.vue')
     },
     {
+      path: '/ability/:name',
+      name: 'abilityDetail',
+      component: () => import('@/views/AbilityDetail.vue')
+    },
+    {
       path: '/encounters',
       name: 'encounters',
       component: () => import('@/views/Encounters.vue')
