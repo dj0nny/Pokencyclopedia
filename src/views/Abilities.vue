@@ -35,9 +35,3 @@ export default class Abilities extends Vue {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.abilities-list {
-    margin-top: 50px;
-}
-</style>

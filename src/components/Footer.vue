@@ -26,5 +26,6 @@ footer {
   background-color: #f7f7f7;
   padding: 20px;
   border-top: 1px solid #ccc;
+  margin-top: 60px;
 }
 </style>
