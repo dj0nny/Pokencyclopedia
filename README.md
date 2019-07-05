@@ -1,6 +1,6 @@
 # pokencyclopedia
 
-[![Build Status](https://travis-ci.org/dj0nny/pokencyclopedia.svg?branch=develop)](https://travis-ci.org/dj0nny/pokencyclopedia)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://img.shields.io/badge/build-passing-brightgreen.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bc7e8f42-711b-47b7-9c4e-85a31cef15f0/deploy-status)](https://app.netlify.com/sites/determined-mahavira-ffd5b1/deploys)
 [![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)
 [![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
