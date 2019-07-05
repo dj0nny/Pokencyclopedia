@@ -23,7 +23,7 @@
                 <tbody>
                   <tr v-for="(item, index) in ability.pokemon" :key="index">
                     <td class="pokemon-name">{{ item.pokemon.name }}</td>
-                    <td class="is-hidden">{{ item.is_hidden }}</td>
+                    <td class="is-hidden"><b-form-checkbox :checked="item.is_hidden" disabled></b-form-checkbox></td>
                   </tr>
                 </tbody>
               </table>
