@@ -5,6 +5,7 @@
 [![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)
 [![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
 [![vue](https://img.shields.io/badge/build%20with-vue-blue.svg)](https://img.shields.io/badge/build%20with-vue-blue.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/dj0nny/pokencyclopedia)
 [![typescript](https://img.shields.io/badge/types-Typescript-blue.svg)](https://img.shields.io/badge/types-Typescript-blue.svg)
 
 > Pokèmon encyclopedia built using Vue.js
@@ -49,7 +50,7 @@ npm run build
 # OR
 yarn build 
 ```
-A deployed version in avaiable on [Netlify](https://netlify.com) at this URL: https://determined-mahavira-ffd5b1.netlify.com/#/
+A deployed version is available on [Netlify](https://netlify.com) at this URL: https://determined-mahavira-ffd5b1.netlify.com/#/
 
 ## Built with ❤️ using:
 
